@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Survey form</title>
+</head>
+<body>
+  <div class="wrapper">
+
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Welcome to the survey form</p>
+    </header>
+    <main>
+
+      <form action="" id="survey-form">
+        <div class="formGroup">
+          <label id="name-label" for="">Name</label>
+          <input required placeholder="Enter your name" type="text" id="name">
+        </div>
+        <div class="formGroup">
+          <label id="email-label" for="">Email</label>
+          <input required type="email" placeholder="Enter your email" id="email">
+        </div>
+        <div class="formGroup">
+          <label id="number-label" for="">Age</label>
+          <input type="number" min="5" max="100" placeholder="Age" id="number">
+        </div>
+        
+        <div class="formGroup">
+          <label for="">What best describes about you</label>
+          <select name="" id="dropdown">
+            <option disabled="" selected="" value="">Select current role</option>
+            <option value="student">Student</option>
+            <option value="fullJob">Full Time Job</option>
+            <option value="partJob">Part Time Job</option>
+            <option value="housemaker">Homemaker</option>
+            <option value="noSay">Prefer Not Say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="formGroup">
+          <p>Would you recommend this survey to your friend ?</p>
+          <label>
+            <input type="radio" value="definitely" name="recommend" id="">
+            Definitley
+          </label>
+          <label>
+            <input type="radio" value="maybe" name="recommend" id="">
+            Maybe
+          </label>
+          <label>
+            <input type="radio" value="notSure" name="recommend" id="">
+            Not Sure
+          </label>
+        </div>
+        <div class="formGroup">
+          <p>What best describes your experience with us ?</p>
+          <select name="" id="">
+            <option disabled="" selected="" value="">Select experience</option>
+            <option value="helpful">Helpful</option>
+            <option value="ok">ok</option>
+            <option value="bad">Bad</option>
+          </select>
+        </div>
+        <div class="formGroup">
+          <p>What are favourite fruit ?</p>
+          <label for="">
+            <input type="checkbox" name="apple" value="apple" id="">
+            Apple
+          </label>
+          <label for="">
+            <input type="checkbox" value="orange" name="orange" id="">
+            Orange
+          </label>
+          <label for="">
+            <input type="checkbox" value="coconut" name="coconut" id="">
+            Coconut
+          </label>
+          <label for="">
+            <input type="checkbox" value="mango" name="mango" id="">
+            Mango
+          </label>
+          <label for="">
+            <input type="checkbox" value="blackberry" name="blackberry" id="">
+            Blackberry
+          </label>
+          <label for="">
+            <input type="checkbox" value="strawberry" name="strawberry" id="">
+            Strawberry
+          </label>
+          <label for="">
+            <input type="checkbox" value="litichi" name="litichi" id="">
+            Litichi
+          </label>
+          <label for="">
+            <input type="checkbox" value="darum" name="darum" id="">
+            Darum
+          </label>
+          <label for="">
+            <input type="checkbox" value="banana" name="banana" id="">
+            Banana
+          </label>
+          <label for="">
+            <input type="checkbox" value="watermelon" name="watermelon" id="">
+            Watermelon
+          </label>
+        </div>
+        <div class="formGroup">
+          <p>Any comments or suggestions ?</p>
+          <textarea name="suggeston" id="" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div class="formGroup">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+
+    </main>
+    </div>
+    
+    
+    
+    
+    <!-- Fcc Checking script -->
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  </body>
+  </html>
